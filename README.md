@@ -5,6 +5,6 @@ The visual may appear different based on the native solutions for customized sty
 
 `Javascript` */javascript/*
 
-`HTML + Javascript` */html/*
+`HTML + Javascript + CSS Grid` */html/*
 
 [Figma Design](https://www.figma.com/file/fJvHxUO360hBk0adXfACmC/Score?node-id=31%3A4)
