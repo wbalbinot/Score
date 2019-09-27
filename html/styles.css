@@ -1,0 +1,75 @@
+/* FONT IMPORT */
+@import url('https://fonts.googleapis.com/css?family=Michroma|Open+Sans&display=swap');
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: 1fr 4fr 1fr;
+  grid-gap: 1.2vw;
+}
+
+
+.container > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.blue-team {
+  background: #0275D8;
+}
+
+.red-team {
+  background: #D9534F;
+}
+
+.points {
+  font-size: 35vw;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.menu {
+  background: #292B2C;
+  font-family: 'Michroma', sans-serif;
+  font-size: 8vw;
+}
+
+.button {
+  color: #ffffff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.action-button {
+  font-size: 5vw;
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+}
+
+.signal{
+  position: fixed;
+  margin-left:-12vw;
+  font-weight: bold;
+  width: 6vw;
+  line-height: 10vh;
+  font-size: 17vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+}
+
+.signal-positive {
+  margin-top: -1vh;
+}
+
+.signal-negative {
+  margin-top: -2vh;
+}
