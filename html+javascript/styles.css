@@ -4,6 +4,7 @@
 html, body {
   margin: 0;
   padding: 0;
+  user-select: none;
 }
 
 .container {
@@ -31,14 +32,15 @@ html, body {
 }
 
 .points {
-  font-size: 35vw;
+  font-size: 30vw;
   font-family: 'Open Sans', sans-serif;
 }
 
 .menu {
   background: #292B2C;
   font-family: 'Michroma', sans-serif;
-  font-size: 8vw;
+  font-size: 6vw;
+  font-weight: bold;
 }
 
 .button {
@@ -48,28 +50,23 @@ html, body {
 }
 
 .action-button {
-  font-size: 5vw;
+  font-size: 3vw;
   font-family: 'Open Sans', sans-serif;
   text-transform: uppercase;
 }
 
 .signal{
-  position: fixed;
-  margin-left:-12vw;
   font-weight: bold;
-  width: 6vw;
-  line-height: 10vh;
-  font-size: 17vw;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  user-select: none;
+  line-height: 150px;
+  font-size: 12vw;
 }
 
 .signal-positive {
-  margin-top: -1vh;
+  margin-top: -2vh;
+  width: 8vw;
 }
 
 .signal-negative {
-  margin-top: -2vh;
+  margin-top: -4vh;
+  width: 5vw;
 }
