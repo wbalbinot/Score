@@ -19,10 +19,18 @@ function decreaseScore (team) {
 }
 
 function clearScore () {
-  location.reload();
+  document.getElementById("redScore").innerText = 0
+  document.getElementById("blueScore").innerText = 0
+  // location.reload();
+
 }
 
 // Initiative the Score
 function initiateScore () {
-  clock(new Date, 'time');
+  const date = new Date();
+  const hours = date.getHours();
+  const minutes = (date.getMinutes() < 10 ? '0' : '') + date.getMinutes();
+  document.getElementById("time").innerHTML = `${hours}:${minutes}`;
 }
+
+setInterval(initiateScore, 1000);
